@@ -176,7 +176,8 @@ https://github.com/wongakim-99/Algorithm-Study/blob/main/study/src/gawonkim/Baek
 
 
 
-
+23년2학기때 알고리즘 시간에 배운 선택정렬, 버블정렬의 내용을 좀 더 깊이 있게 다뤘음
+https://www.youtube.com/watch?v=kPRA0W1kECg&t=6s
 
 참고자료 : https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html
 '''
