@@ -1,10 +1,9 @@
-croatia = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
-word = input()
+# croatia = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
+# word = input()
 
-for i in croatia:
-    word = word.replace(i, "*")
-print(len(word))
-
+# for i in croatia:
+#     word = word.replace(i, "*")
+# print(len(word))
 
 # +여담
 # c언어 풀이

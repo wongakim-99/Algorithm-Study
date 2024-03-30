@@ -1,19 +1,36 @@
 #백준 공 바꾸기
 
+# N, M = map(int, input().split())
+# bucket = [i for i  in range(1, N+1)]
+# temp = 0
+
+# # 10~12 ***swap생각***
+# for i in range(M):
+#     i,j = map(int, input().split())
+#     temp = bucket[i-1]
+#     bucket[i-1] = bucket[j-1]
+#     bucket[j-1] = temp
+
+# for i in range(N):
+#     print(bucket[i], end = ' ')
+
 N, M = map(int, input().split())
-bucket = [i for i  in range(1, N+1)]
+basket = [0]*N 
 temp = 0
 
-# 10~12 ***swap생각***
-for i in range(M):
-    i,j = map(int, input().split())
-    temp = bucket[i-1]
-    bucket[i-1] = bucket[j-1]
-    bucket[j-1] = temp
-
 for i in range(N):
-    print(bucket[i], end = ' ')
+    basket[i] = i+1
 
+# bucket = [i for i  in range(1, N+1)] <-- 좀 더 파이썬 스러운 코드
+
+for a in range(M):
+    i, j = map(int, input().split())
+    temp = basket[i-1]
+    basket[i-1] = basket[j-1]
+    basket[j-1] = temp
+
+for z in range(N):
+    print(basket[z], end = ' ')
 
 '''
 ****참고****
